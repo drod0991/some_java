@@ -1,5 +1,5 @@
 //package hello;
-
+iimport static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 
@@ -10,8 +10,7 @@ public class hellotest {
     }
 
     @Test
-    public void testmethod() {
-        
+    public void testmethod() {        
         assertEquals(6,6);
     }
 
