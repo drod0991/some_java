@@ -11,8 +11,9 @@ public class hellotest {
     }
 
     @Test
-    public void testWillAlwaysFail() {
-        fail("An error message");
+    public void testmethod() {
+        method check = new method();
+        assertEquals(6, check);
     }
 
 
